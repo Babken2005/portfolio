@@ -9,8 +9,7 @@ body {
 header {
   width: 100%;
   position: fixed;
-  top: 0;
-  height: 8vh;
+  top: 15px;
   justify-content: space-between;
 }
 .workTxt {
@@ -27,21 +26,18 @@ header {
   line-height: 36px;
   letter-spacing: 0.2em;
 }
-footer {
-  width: 100%;
+.socBlock {
   position: absolute;
   bottom: 0;
-  justify-content: space-between;
+  left: 0;
 }
-.footerLeft {
-  margin-left: 10px;
-}
-.footerLeft img {
-  width: 24px;
+.socBlock img {
+  width: 20px;
   margin: 20px;
   cursor: pointer;
 }
 .contentCard {
+  width: 85%;
   text-align: center;
 }
 .contentCard h1 {
@@ -75,17 +71,20 @@ footer {
   font-size: 23px;
   line-height: 29px;
   text-align: center;
-  color: #401deb;
+  color: #1b1b1b;
 }
 .mobileNameTxt {
   display: none;
 }
 @media (max-width: 1000px) {
   .contentCard h1 {
-    font-size: 2.4em;
+    font-size: 2.1em;
+  }
+  .socBlock img {
+    margin: 15px;
   }
   .contentCard h4 {
-    font-size: 2em;
+    font-size: 2.1em;
   }
   .pcNameTxt {
     display: none;
@@ -99,10 +98,10 @@ footer {
   .infoTxt {
     margin-right: 15px;
   }
-  .footerLeft {
-    margin-left: unset;
+  .socBlock img {
+    width: 15px;
   }
-  .footerLeft img {
-    width: 20px;
+  header {
+    top: 5px;
   }
 }
