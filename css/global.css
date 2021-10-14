@@ -3,7 +3,6 @@
   margin: 0;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  color: #1b1b1b;
 }
 .a-c {
   display: flex;
@@ -15,4 +14,7 @@
 }
 .c-p {
   cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0;
 }
