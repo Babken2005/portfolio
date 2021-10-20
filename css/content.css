@@ -19,6 +19,9 @@
   bottom: 50%;
   transform: translateY(50%);
 }
+.infoSlideBlock {
+  background-color: black;
+}
 .slidePcText {
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -27,12 +30,15 @@
   line-height: 1.1;
 }
 .slideMobText {
-  display: none;
   color: white;
+  display: none;
   font-family: 'Oswald', sans-serif;
-  font-size: 13em;
+  font-size: 25em;
   font-weight: 400;
   line-height: 1.1;
+}
+.infoSlideTxt {
+  color: #101010;
 }
 .content {
   width: 100%;
@@ -54,10 +60,12 @@ header {
   font-weight: normal;
   font-size: 1em;
   margin-left: 30px;
+  color: black;
 }
 .infoTxt {
   font-size: 1em;
   margin-right: 30px;
+  color: black;
 }
 .nameTxt {
   font-size: 1.2em;
@@ -105,6 +113,7 @@ header {
   color: #401deb;
 }
 .footerRight {
+  display: none;
   position: fixed;
   width: 48px;
   height: 48px;
@@ -132,10 +141,6 @@ header {
 }
 .slide-1 {
   z-index: 5;
-}
-.slide-2 {
-  z-index: 4;
-  background-color: white;
 }
 .worksBlock {
   width: 100%;
@@ -165,6 +170,18 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+.infoWorkTxt {
+  color: white;
+}
+.infoInfoTxt {
+  color: white;
+}
+.infoContainerParent div {
+  color: white;
+}
+.infoContainer h4 {
+  color: white;
+}
 @media (max-width: 1000px) {
   .workTxt {
     font-size: 0.85em;
@@ -181,7 +198,7 @@ header {
     margin-left: unset;
   }
   .workBlockProject h1 {
-    font-size: 3.5em;
+    font-size: 3em;
   }
   .rightTxt {
     margin-left: unset;
