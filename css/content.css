@@ -5,7 +5,7 @@
   transition: 0.3s linear;
   /* background: linear-gradient(to right, #fdfdfd, #ebedee 70%);
    */
-  background-color: #f2f2f2;
+  background-color: black;
 }
 .backgroundSlide {
   width: 100%;
@@ -19,18 +19,15 @@
   bottom: 50%;
   transform: translateY(50%);
 }
-.infoSlideBlock {
-  background-color: black;
-}
 .slidePcText {
-  color: white;
+  color: #101010;
   font-family: 'Oswald', sans-serif;
   font-size: 35em;
   font-weight: 400;
   line-height: 1.1;
 }
 .slideMobText {
-  color: white;
+  color: #101010;
   display: none;
   font-family: 'Oswald', sans-serif;
   font-size: 25em;
@@ -63,12 +60,12 @@ header {
   font-weight: normal;
   font-size: 1em;
   margin-left: 30px;
-  color: black;
+  color: #fff;
 }
 .infoTxt {
   font-size: 1em;
   margin-right: 30px;
-  color: black;
+  color: #fff;
 }
 .nameTxt {
   font-size: 1.2em;
@@ -108,6 +105,7 @@ header {
   display: none;
 }
 .pc-c h4 {
+  color: white;
   font-size: 5.5em;
   font-weight: 400;
   line-height: 1.08;
@@ -162,6 +160,7 @@ header {
   font-weight: 500;
   font-size: 6.5em;
   margin-left: 2.5%;
+  color: #fff;
 }
 .workBlock {
   margin-bottom: 100px;
@@ -170,18 +169,6 @@ header {
 .mobileWorkBlockRight {
   display: flex;
   justify-content: flex-end;
-}
-.infoWorkTxt {
-  color: white;
-}
-.infoInfoTxt {
-  color: white;
-}
-.infoContainerParent div {
-  color: white;
-}
-.infoContainer h4 {
-  color: white;
 }
 @media (max-width: 1000px) {
   .workTxt {
@@ -224,7 +211,8 @@ header {
     margin: 15px;
   }
   .containerParent div {
-    font-size: 2.35em;
+    color: white;
+    font-size: 2.3em;
     line-height: 1.2;
     font-family: 'Roboto', sans-serif;
   }
