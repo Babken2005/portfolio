@@ -158,7 +158,8 @@ header {
   background-size: cover;
 } */
 .workBlockTxt {
-  font-family: Barlow;
+  /* font-family: Barlow; */
+  font-family: 'Bebas Neue', cursive;
   font-weight: 500;
   font-size: 6.5em;
   margin-left: 2.5%;
@@ -175,12 +176,6 @@ header {
   color: white;
 }
 .infoInfoTxt {
-  color: white;
-}
-.infoContainerParent div {
-  color: white;
-}
-.infoContainer h4 {
   color: white;
 }
 @media (max-width: 1000px) {
@@ -256,3 +251,4 @@ header {
     display: block;
   }
 }
+
