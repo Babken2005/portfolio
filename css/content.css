@@ -111,7 +111,7 @@ header {
   font-size: 5.5em;
   font-weight: 400;
   line-height: 1.08;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Euclid Circular B';
 }
 .footerRight {
   display: none;
@@ -159,7 +159,7 @@ header {
 } */
 .workBlockTxt {
   /* font-family: Barlow; */
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Euclid Circular B';
   font-weight: 500;
   font-size: 6.5em;
   margin-left: 2.5%;
@@ -221,7 +221,7 @@ header {
   .containerParent div {
     font-size: 2.3em;
     line-height: 1.2;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Euclid Circular B';
   }
   .pcNameTxt {
     display: none;
@@ -251,4 +251,3 @@ header {
     display: block;
   }
 }
-
