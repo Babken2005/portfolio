@@ -178,9 +178,25 @@ header {
 .infoInfoTxt {
   color: white;
 }
+.img {
+  width: 664px;
+  height: 465px;
+}
+.img-1 {
+  background: url('../images/img1.jpg') center no-repeat;
+  background-size: cover;
+}
+.img-2 {
+  background: url('../images/img2.png') center no-repeat;
+  background-size: cover;
+}
 @media (max-width: 1000px) {
   .workTxt {
     font-size: 0.85em;
+  }
+  .img {
+    width: 281px;
+    height: 196px;
   }
   .infoTxt {
     font-size: 0.85em;
