@@ -190,6 +190,11 @@ header {
   background: url('../images/img2.png') center no-repeat;
   background-size: cover;
 }
+.img-2 h4 {
+  color: #bea67c;
+  font-size: 5em;
+  font-family: 'Maven Pro', sans-serif;
+}
 @media (max-width: 1000px) {
   .workTxt {
     font-size: 0.85em;
