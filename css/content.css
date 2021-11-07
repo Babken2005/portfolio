@@ -141,7 +141,7 @@ header {
   color: #f2f2f2;
 }
 .slide-1 {
-  z-index: 5;
+  z-index: 0;
 }
 .workBlockTxt {
   font-family: 'Euclid Circular B';
@@ -160,10 +160,9 @@ header {
   color: white;
 }
 .works {
-  position: relative;
   width: 100%;
   height: 100vh;
-  z-index: 5555555555555;
+  z-index: 250;
 }
 .swiper {
   width: 383px;
