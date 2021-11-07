@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
   <title>Portfolio | Works</title>
 </head>
 <body>
@@ -52,31 +57,39 @@
       </div>
   </div>
   </div>
-  <div class="worksBlock">
-    <div class="workParent">
-      <a href="https://angry-thompson-9fc361.netlify.app/?fbclid=IwAR0OLqWC_BJ20OVttWU8jndSELlfWqXgtdXVlwZLZyBaZIQyu5C47625ONo">
-      <div class="workBlock">
-        <div class="workBlockProject a-c">
-     <div data-aos="fade-up"
-     data-aos-duration="500" class="img img-1"></div>
-          <h1 data-aos="fade-up"
-          data-aos-duration="1000" class="workBlockTxt">Nufruit</h1>
+  <div class="works a-c j-c">
+    <div class="worksParent swiper-container">
+      <div class="swiper mySwiper">
+        <div class="worksContainer swiper-wrapper">
+          <div class="workCard a-c j-c work1 swiper-slide">
+            <img src="./images/nufruit.png" alt="png">
+            <a  class="preview" href="https://angry-thompson-9fc361.netlify.app/?fbclid=IwAR2ogVwobMzic-rbosHOugQvMee_HZj_rlCGSzs6YaGdrGCNOS6pB4ytAPs">
+            <p>Preview</p></a>
+            <h4>Nufruit</h4>
+          </div>
+          <div class="workCard a-c j-c work2 swiper-slide">
+            <img class="plantexImg" src="./images/plantex.png" alt="png">
+            <a  class="preview" href="https://hardcore-neumann-b0a612.netlify.app/?fbclid=IwAR10kn4W9__QrHES_jdQWN6iVsAsGXLVDQvwgg3f12vN2yXODWIDu1zImN0">
+            <p>Preview</p></a>
+            <h4>Plantex</h4>
+          </div>
+          <div class="workCard a-c j-c work2 swiper-slide">
+            <img class="plantexImg" src="./images/singleton.svg" alt="png">
+            <a  class="preview" href="https://upbeat-brown-23ab5b.netlify.app/?fbclid=IwAR3Xe8ZkDwzoYJNyuSsDWlE7d3PG4n1zJ_oI4fMW_PY02cFwM5kwHoxLXjU">
+            <p>Preview</p></a>
+            <h4>Singleton</h4>
+          </div>
         </div>
       </div>
-    </a>
-    <div class="workBlock mobileWorkBlockRight">
-      <div class="workBlockProject a-c">
-   <div data-aos="fade-up"
-   data-aos-duration="500" class="img imgRight img-2 a-c j-c">
-   <h4>W</h4>
-  </div>
-        <h1 data-aos="fade-up"
-        data-aos-duration="1000" class="workBlockTxt rightTxt">Wooder</h1>
+      <div class="swipeBlock a-c">
+        <i class="ri-mouse-line"></i>
+      <p class="scrollTxt"> Swipe right</p>
       </div>
-    </div>
     </div>
   </div>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/aos.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
