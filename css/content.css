@@ -222,10 +222,11 @@ header {
 @media (max-width: 1000px) {
   .swipeBlock {
     margin-left: 7%;
+    display: none;
   }
   .swiper {
     width: 86%;
-    height: 65vh;
+    height: 80vh;
   }
   .work1 img {
     width: 85%;
