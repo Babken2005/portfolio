@@ -143,16 +143,6 @@ header {
 .slide-1 {
   z-index: 0;
 }
-.workBlockTxt {
-  font-family: 'Euclid Circular B';
-  font-weight: 500;
-  font-size: 6.5em;
-  margin-left: 2.5%;
-}
-.workBlock {
-  margin-bottom: 100px;
-  margin-left: 4%;
-}
 .infoWorkTxt {
   color: white;
 }
@@ -161,108 +151,68 @@ header {
 }
 .works {
   width: 100%;
-  height: 100vh;
-  z-index: 250;
-}
-.swiper {
-  width: 383px;
-  height: 575px;
-}
-.workCard {
+  z-index: 25;
   position: relative;
 }
-.work1 {
-  background-color: #fff;
+.work {
+  margin-left: 15px;
+  margin-bottom: 50px;
 }
-.workCard h4 {
-  position: absolute;
-  left: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: -0.05em;
-  color: #000000;
-  font-family: 'Euclid Circular B';
+.work img {
+  width: 35%;
 }
-.work1Png {
-  height: 95vh;
-  position: absolute;
-  right: 0;
+.work h1 {
+  font-size: 7em;
+  font-weight: 500;
+  margin-left: 50px;
 }
-.preview {
-  position: absolute;
-  left: 15px;
-  bottom: 10px;
-  font-family: 'Euclid Circular B';
+.marginNone {
+  transform: translateX(-25px);
 }
-.plantexImg {
-  width: 65%;
+.workContent {
+  width: fit-content;
 }
-.work2 {
-  background-color: white;
-}
-.workCard h4 {
-  font-size: 1em;
-  bottom: 30px;
-}
-.preview {
-  font-size: 0.9em;
-}
-.work1 img {
-  width: 86%;
-}
-.ri-mouse-line {
-  font-size: 1.25rem;
-  margin-right: 5px;
-}
-.swipeBlock {
-  margin-top: 5px;
+.mobileWorks {
+  display: none;
 }
 @media (max-width: 1000px) {
-  .swipeBlock {
-    margin-left: 7%;
+  .mobileWorks {
+    display: unset;
+  }
+  .pcWorks {
     display: none;
   }
-  .swiper {
-    width: 86%;
-    height: 80vh;
+  .workItemsRight {
+    display: flex;
+    justify-content: flex-end;
   }
-  .work1 img {
-    width: 85%;
+  .workItemsRight img {
+    margin-left: unset;
+  }
+  .workItemsRight .work {
+    margin-right: 15px;
+  }
+  .workItemsLeft {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .work {
+    width: 60%;
+    display: block;
+  }
+  .work img {
+    width: 100%;
+  }
+  .work h1 {
+    width: fit-content;
+    font-size: 2.8em;
+    margin-left: unset;
   }
   .workTxt {
     font-size: 0.85em;
   }
-  .mobileWorkBlockRight {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .img {
-    width: 281px;
-    height: 196px;
-  }
   .infoTxt {
     font-size: 0.85em;
-  }
-  .workBlockProject {
-    width: 75%;
-    display: unset;
-  }
-  .workBlock {
-    margin-bottom: 100px;
-    margin-left: unset;
-  }
-  .workBlockProject h1 {
-    font-size: 3em;
-  }
-  .rightTxt {
-    margin-left: unset;
-  }
-  .img {
-    width: 75%;
-  }
-  .imgRight {
-    width: 100%;
   }
   .slideMobText {
     display: unset;
